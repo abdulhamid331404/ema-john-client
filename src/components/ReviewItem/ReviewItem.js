@@ -17,11 +17,11 @@ const ReviewItem = ({product, handleRemoveItem}) => {
                     <p><small>Shipping: ${shipping}</small></p>
                     <p><small>Quantity: {quantity}</small></p>
                 </div>
-                <div className="delete-container">
+                 {/* <div className="delete-container">
                     <button onClick={() => handleRemoveItem(id)} className='btn-delete'>
                         <FontAwesomeIcon className='delete-icon' icon={faTrashAlt}></FontAwesomeIcon>
                     </button>
-                </div>
+                </div>  */}
             </div>
         </div>
     );
